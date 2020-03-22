@@ -1,4 +1,4 @@
-**Deployment of the Model
+# Deployment of the Model
 
 Build the Docker image:
 
