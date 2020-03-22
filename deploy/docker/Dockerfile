@@ -14,6 +14,9 @@ RUN apt-get install -y python-pip python-dev build-essential
 # Copy files from current folder (.) to the Container's default folder (.)
 COPY . .
 
+# Copy files from URL to the Container's default folder (.)
+ADD https://www.dropbox.com/s/766vx1owmrexkoy/my_model.h5?dl=1 .
+
 # Set working directory as Container's default folder (.)
 WORKDIR .
 
